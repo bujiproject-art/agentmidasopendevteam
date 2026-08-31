@@ -187,11 +187,13 @@ export function FAQManager() {
                       </span>
                     </button>
 
-                    {isOpen && (
-                      <div id={panelId} className="border-t border-[#2A2A2A] px-5 py-5">
-                        <p className="max-w-3xl text-base leading-7 text-[#9CA3AF]">{item.answer}</p>
-                      </div>
-                    )}
+                    <div
+                      id={panelId}
+                      hidden={!isOpen}
+                      className="border-t border-[#2A2A2A] px-5 py-5"
+                    >
+                      <p className="max-w-3xl text-base leading-7 text-[#9CA3AF]">{item.answer}</p>
+                    </div>
                   </article>
                 );
               })}
