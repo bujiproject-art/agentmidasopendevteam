@@ -55,7 +55,7 @@ const FAQS: FAQItem[] = [
 ];
 
 function normalize(value: string) {
-  return value.trim().toLocaleLowerCase();
+  return value.trim().toLowerCase();
 }
 
 export function FAQManager() {
