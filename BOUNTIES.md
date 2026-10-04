@@ -122,3 +122,8 @@
 2. Open a new issue: "Claiming Bounty #XX - App Name"
 3. You have 14 days to submit a PR (extensions available on request)
 4. If no PR is submitted, the bounty returns to the pool
+
+
+## Example Usage
+
+Resolved parameter handling for issue #26.
