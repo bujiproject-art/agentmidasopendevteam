@@ -33,7 +33,7 @@
 | 8 | Social Media Scheduler | Multi-platform post scheduler with preview and analytics | $300 | Advanced |
 | 9 | Podcast Manager | Episode upload, RSS feed generation, and player embed | $200 | Intermediate |
 | 10 | Video Content Library | Video hosting dashboard with tagging and search | $150 | Intermediate |
-| 11 | Content Calendar | Drag-and-drop content planning calendar with team assignments | $100 | Beginner |
+| 11 | Content Calendar | Drag-and-drop content planning calendar with team assignments (claimed) | $100 | Beginner |
 
 ## Affiliate Marketing (4 Bounties)
 
