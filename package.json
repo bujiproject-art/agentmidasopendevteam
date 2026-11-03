@@ -1,0 +1,22 @@
+{
+  "name": "agent-midas-referral-link-manager",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scaffold for Bounty #13 – Referral Link Manager",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.5.6"
+  }
+}
