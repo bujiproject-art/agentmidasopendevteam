@@ -1,0 +1,3 @@
+
+The repository already contains the base React/TypeScript app (`src/App.tsx`, `src/components/`). Place the new dashboard component at:
+

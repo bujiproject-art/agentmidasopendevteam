@@ -1,0 +1,22 @@
+
+---
+
+## 5. Claim Clock Clarification
+
+- The **14‑day claim clock** starts **when this issue is labeled `claimed`** and the contributor has pushed the initial scaffold (i.e., the branch created above with at least a placeholder component and test files).
+- If additional scaffolding is required (e.g., mock API server), the clock **does not** start until those files are merged into the repository.
+
+---
+
+## 6. Next Steps for the Claimant
+
+1. Comment `@bot claim #18` to have the issue automatically labeled `claimed`.
+2. Fork the repository and create the branch `bounty/18-revenue-dashboard`.
+3. Add the placeholder component, type definitions, and test files as described.
+4. Push the branch and reference the PR in a follow‑up comment.
+
+Once the scaffold is merged, the 14‑day development window begins.
+
+--- 
+
+*This specification is intended to be the single source of truth for the Revenue Dashboard bounty. Any deviation must be approved by a repository maintainer.*

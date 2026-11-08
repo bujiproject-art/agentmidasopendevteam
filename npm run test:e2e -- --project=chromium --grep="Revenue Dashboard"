@@ -1,0 +1,19 @@
+
+### 3.1 Unit Test Expectations
+- Verify each metric calculation matches the formulas above given a mock data set.
+- Edge cases: zero active subscriptions, 100 % churn, and extremely high LTV values.
+- Ensure rounding to two decimal places.
+
+### 3.2 E2E Test Expectations
+- **Loading State**: Dashboard shows skeleton cards while awaiting API response.
+- **Empty State**: When the API returns `null` for a metric, the UI displays “No data”.
+- **Error State**: HTTP 5xx responses render a retry button with appropriate ARIA alerts.
+- **Responsive Layout**: Cards collapse into a single column on viewports `< 640px`.
+- **Keyboard Accessibility**: All interactive controls (period selector, refresh button) are reachable via `Tab` and have visible focus outlines.
+
+---
+
+## 4. Scaffold / Repository Branch
+
+All new source files should be added under the `src/` directory on a **feature branch** named:
+
