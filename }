@@ -1,0 +1,14 @@
+
+**Endpoint**: `GET /api/v1/revenue/dashboard?period=12m`
+
+- **Query Parameters**
+  - `period` (optional): Number of months for trend data (default `12`). Must be an integer between `1` and `24`.
+
+- **Response**: JSON matching `RevenueDashboardResponse`.
+
+---
+
+## 3. Acceptance / Test Commands
+
+The repository uses **Jest** for unit tests and **Playwright** for end‑to‑end (E2E) tests. The following npm scripts must succeed for the bounty to be considered complete.
+
